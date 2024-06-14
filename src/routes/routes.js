@@ -8,6 +8,7 @@ const postsController = require('../controllers/postsController');
 const commentController = require('../controllers/commentController');
 const { route } = require('../app');
 const { authenticateToken } = require('../middlewares/authenticateToken');
+//const { authenticateToken } = require('./middleware/authMiddleware');
 
 // ---------------rutas Users-----------------------
 // Traer todos los usuarios
